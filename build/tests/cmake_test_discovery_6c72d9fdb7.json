@@ -1,0 +1,38 @@
+{
+  "tests": 4,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "WorldTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "CriaEntidade",
+          "file": "C:\\Users\\Miquéias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\tests\\unit\\test_ecs.cpp",
+          "line": 4
+        },
+        {
+          "name": "AdicionaComponente",
+          "file": "C:\\Users\\Miquéias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\tests\\unit\\test_ecs.cpp",
+          "line": 11
+        },
+        {
+          "name": "ContadorEntidades",
+          "file": "C:\\Users\\Miquéias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\tests\\unit\\test_ecs.cpp",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "name": "HealthTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "VerificaVivo",
+          "file": "C:\\Users\\Miquéias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\tests\\unit\\test_ecs.cpp",
+          "line": 26
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\CMakeFiles\c9a8be9073516a671dca58e3316b8ceb\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{97EB7E89-CAAE-3FA6-935D-BC063A26B75F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

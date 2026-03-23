@@ -1,0 +1,150 @@
+^C:\USERS\MIQUÉIAS\DOCUMENTS\AR SOFTWORKS\PROJETO-REVO-ENGINE\BUILD\_DEPS\ENTT-SUBBUILD\CMAKEFILES\F2F5DB74A805ED47F015889860FF865C\ENTT-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/entt-populate-prefix/tmp/entt-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/Debug/entt-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MIQUÉIAS\DOCUMENTS\AR SOFTWORKS\PROJETO-REVO-ENGINE\BUILD\_DEPS\ENTT-SUBBUILD\CMAKEFILES\F2F5DB74A805ED47F015889860FF865C\ENTT-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/entt-populate-prefix/tmp/entt-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/Debug/entt-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MIQUÉIAS\DOCUMENTS\AR SOFTWORKS\PROJETO-REVO-ENGINE\BUILD\_DEPS\ENTT-SUBBUILD\CMAKEFILES\F2F5DB74A805ED47F015889860FF865C\ENTT-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/entt-populate-prefix/tmp/entt-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MIQUÉIAS\DOCUMENTS\AR SOFTWORKS\PROJETO-REVO-ENGINE\BUILD\_DEPS\ENTT-SUBBUILD\CMAKEFILES\F2F5DB74A805ED47F015889860FF865C\ENTT-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/Debug/entt-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MIQUÉIAS\DOCUMENTS\AR SOFTWORKS\PROJETO-REVO-ENGINE\BUILD\_DEPS\ENTT-SUBBUILD\CMAKEFILES\F2F5DB74A805ED47F015889860FF865C\ENTT-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/Debug/entt-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MIQUÉIAS\DOCUMENTS\AR SOFTWORKS\PROJETO-REVO-ENGINE\BUILD\_DEPS\ENTT-SUBBUILD\CMAKEFILES\F2F5DB74A805ED47F015889860FF865C\ENTT-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/Debug/entt-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MIQUÉIAS\DOCUMENTS\AR SOFTWORKS\PROJETO-REVO-ENGINE\BUILD\_DEPS\ENTT-SUBBUILD\CMAKEFILES\F2F5DB74A805ED47F015889860FF865C\ENTT-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/Debug/entt-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MIQUÉIAS\DOCUMENTS\AR SOFTWORKS\PROJETO-REVO-ENGINE\BUILD\_DEPS\ENTT-SUBBUILD\CMAKEFILES\F2F5DB74A805ED47F015889860FF865C\ENTT-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/Debug/entt-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MIQUÉIAS\DOCUMENTS\AR SOFTWORKS\PROJETO-REVO-ENGINE\BUILD\_DEPS\ENTT-SUBBUILD\CMAKEFILES\8EE421F53108084C32C2EBE981F509FD\ENTT-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/CMakeFiles/Debug/entt-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/Debug/entt-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MIQUÉIAS\DOCUMENTS\AR SOFTWORKS\PROJETO-REVO-ENGINE\BUILD\_DEPS\ENTT-SUBBUILD\CMAKEFILES\DB404C82024D0397CC7F628FF61D9C57\ENTT-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MIQUÉIAS\DOCUMENTS\AR SOFTWORKS\PROJETO-REVO-ENGINE\BUILD\_DEPS\ENTT-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild" "-BC:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild" --check-stamp-file "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/entt-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

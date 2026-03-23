@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeFiles\50c99be685af7de8faa8ad7f888995d4\pybind11-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeFiles\50c99be685af7de8faa8ad7f888995d4\pybind11-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeFiles\50c99be685af7de8faa8ad7f888995d4\pybind11-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeFiles\50c99be685af7de8faa8ad7f888995d4\pybind11-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeFiles\50c99be685af7de8faa8ad7f888995d4\pybind11-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeFiles\50c99be685af7de8faa8ad7f888995d4\pybind11-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeFiles\50c99be685af7de8faa8ad7f888995d4\pybind11-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeFiles\50c99be685af7de8faa8ad7f888995d4\pybind11-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeFiles\03e04ec87fbe3fffab2bdacd94694801\pybind11-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeFiles\537cb4fc2f695b746558ded73ef58cd8\pybind11-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-subbuild\CMakeFiles\pybind11-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3BAAE1E0-1AE7-3E94-B7D8-E616D72EF51B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
