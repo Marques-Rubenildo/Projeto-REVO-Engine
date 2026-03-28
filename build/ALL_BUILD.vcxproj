@@ -202,6 +202,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{0B60E1A6-4C02-34BC-9924-B8EEFBA3EEF4}</Project>
       <Name>mmo_tests_ecs</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\tests\mmo_tests_network.vcxproj">
+      <Project>{68A88205-8BA8-3B0E-9A43-2B7D2F46B986}</Project>
+      <Name>mmo_tests_network</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\tests\mmo_tests_scripting.vcxproj">
       <Project>{898D4A0B-46CF-32DE-AB28-F5E2000527E4}</Project>
       <Name>mmo_tests_scripting</Name>

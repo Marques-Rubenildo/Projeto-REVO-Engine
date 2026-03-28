@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/googletest-src/googletest/include" /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/googletest-src/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -107,16 +107,16 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -136,7 +136,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\engine\Debug\mmo_engine.lib;..\lib\Debug\gtest_main.lib;..\_deps\spdlog-build\Debug\spdlogd.lib;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\libs\python312.lib;..\lib\Debug\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\engine\Debug\mmo_engine.lib;..\lib\Debug\gtest_main.lib;..\_deps\spdlog-build\Debug\spdlogd.lib;ws2_32.lib;mswsock.lib;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\libs\python312.lib;..\lib\Debug\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -155,7 +155,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/googletest-src/googletest/include" /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/googletest-src/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -175,18 +175,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -206,7 +206,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\engine\Release\mmo_engine.lib;..\lib\Release\gtest_main.lib;..\_deps\spdlog-build\Release\spdlog.lib;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\libs\python312.lib;..\lib\Release\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\engine\Release\mmo_engine.lib;..\lib\Release\gtest_main.lib;..\_deps\spdlog-build\Release\spdlog.lib;ws2_32.lib;mswsock.lib;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\libs\python312.lib;..\lib\Release\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -225,7 +225,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/googletest-src/googletest/include" /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/googletest-src/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -245,18 +245,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -276,7 +276,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\engine\MinSizeRel\mmo_engine.lib;..\lib\MinSizeRel\gtest_main.lib;..\_deps\spdlog-build\MinSizeRel\spdlog.lib;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\libs\python312.lib;..\lib\MinSizeRel\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\engine\MinSizeRel\mmo_engine.lib;..\lib\MinSizeRel\gtest_main.lib;..\_deps\spdlog-build\MinSizeRel\spdlog.lib;ws2_32.lib;mswsock.lib;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\libs\python312.lib;..\lib\MinSizeRel\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -295,7 +295,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/googletest-src/googletest/include" /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/googletest-src/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -316,16 +316,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -345,7 +345,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\engine\RelWithDebInfo\mmo_engine.lib;..\lib\RelWithDebInfo\gtest_main.lib;..\_deps\spdlog-build\RelWithDebInfo\spdlog.lib;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\libs\python312.lib;..\lib\RelWithDebInfo\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\engine\RelWithDebInfo\mmo_engine.lib;..\lib\RelWithDebInfo\gtest_main.lib;..\_deps\spdlog-build\RelWithDebInfo\spdlog.lib;ws2_32.lib;mswsock.lib;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\libs\python312.lib;..\lib\RelWithDebInfo\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>

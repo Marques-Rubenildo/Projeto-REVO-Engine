@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine\core\engine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine\core\game_loop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine\ecs\world.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

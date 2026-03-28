@@ -23,6 +23,7 @@ C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/server/CMake
 C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/server/CMakeFiles/INSTALL.dir
 C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/tests/CMakeFiles/mmo_tests_ecs.dir
 C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/tests/CMakeFiles/mmo_tests_scripting.dir
+C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/tests/CMakeFiles/mmo_tests_network.dir
 C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/tests/CMakeFiles/RUN_TESTS.dir
 C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/tests/CMakeFiles/INSTALL.dir
 C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/googletest-build/CMakeFiles/RUN_TESTS.dir

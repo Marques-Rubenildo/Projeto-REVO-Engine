@@ -16,6 +16,7 @@
 		<BuildDependency Project="engine/mmo_engine.vcxproj"/>
 		<BuildDependency Project="server/mmo_server.vcxproj"/>
 		<BuildDependency Project="tests/mmo_tests_ecs.vcxproj"/>
+		<BuildDependency Project="tests/mmo_tests_network.vcxproj"/>
 		<BuildDependency Project="tests/mmo_tests_scripting.vcxproj"/>
 		<BuildDependency Project="_deps/spdlog-build/spdlog.vcxproj"/>
 	</Project>
@@ -58,6 +59,13 @@
 		<BuildDependency Project="_deps/spdlog-build/spdlog.vcxproj"/>
 	</Project>
 	<Project Path="tests/mmo_tests_ecs.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0b60e1a6-4c02-34bc-9924-b8eefba3eef4">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/googletest-build/googletest/gtest.vcxproj"/>
+		<BuildDependency Project="_deps/googletest-build/googletest/gtest_main.vcxproj"/>
+		<BuildDependency Project="engine/mmo_engine.vcxproj"/>
+		<BuildDependency Project="_deps/spdlog-build/spdlog.vcxproj"/>
+	</Project>
+	<Project Path="tests/mmo_tests_network.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="68a88205-8ba8-3b0e-9a43-2b7d2f46b986">
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 		<BuildDependency Project="_deps/googletest-build/googletest/gtest.vcxproj"/>
 		<BuildDependency Project="_deps/googletest-build/googletest/gtest_main.vcxproj"/>

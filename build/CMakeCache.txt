@@ -311,6 +311,10 @@ FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
 FETCHCONTENT_QUIET:BOOL=ON
 
 //When not empty, overrides where to find pre-populated content
+// for asio
+FETCHCONTENT_SOURCE_DIR_ASIO:PATH=
+
+//When not empty, overrides where to find pre-populated content
 // for entt
 FETCHCONTENT_SOURCE_DIR_ENTT:PATH=
 
@@ -332,6 +336,9 @@ FETCHCONTENT_SOURCE_DIR_SPDLOG:PATH=
 
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of asio
+FETCHCONTENT_UPDATES_DISCONNECTED_ASIO:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of entt
 FETCHCONTENT_UPDATES_DISCONNECTED_ENTT:BOOL=OFF

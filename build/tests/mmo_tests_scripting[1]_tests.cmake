@@ -1,3 +1,0 @@
-add_test([=[PythonBridgeTest.InicializaSemCrash]=]  [==[C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/tests/Debug/mmo_tests_scripting.exe]==] [==[--gtest_filter=PythonBridgeTest.InicializaSemCrash]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[PythonBridgeTest.InicializaSemCrash]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\Users\Miqu驡s\Documents\AR Softworks\Projeto-REVO-ENGINE\tests\unit\test_scripting.cpp:5]==] WORKING_DIRECTORY [==[C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  mmo_tests_scripting_TESTS PythonBridgeTest.InicializaSemCrash)

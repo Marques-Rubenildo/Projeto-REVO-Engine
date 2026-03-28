@@ -44,8 +44,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -57,6 +59,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
   -
     kind: "message-v1"
     backtrace:
@@ -73,7 +77,7 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
-      Compila├º├úo de 19/03/2026 23:14:59 iniciada.
+      Compila├º├úo de 28/03/2026 05:05:28 iniciada.
       
       Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
@@ -102,7 +106,7 @@ events:
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:01.31
+      Tempo Decorrido 00:00:03.17
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -144,8 +148,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/ffmpeg/bin/"
-      - "E:/"
       - "C:/Program Files/CMake/bin/"
+      - "E:/Programas/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "E:/Programas/Microsoft VS Code/bin/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python314/Scripts/"
@@ -170,8 +176,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -183,6 +191,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
   -
     kind: "find-v1"
     backtrace:
@@ -215,8 +225,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/ffmpeg/bin/"
-      - "E:/"
       - "C:/Program Files/CMake/bin/"
+      - "E:/Programas/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "E:/Programas/Microsoft VS Code/bin/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python314/Scripts/"
@@ -258,12 +270,18 @@ events:
       - "C:/ffmpeg/bin/lld-link.com"
       - "C:/ffmpeg/bin/lld-link.exe"
       - "C:/ffmpeg/bin/lld-link"
-      - "E:/lld-link.com"
-      - "E:/lld-link.exe"
-      - "E:/lld-link"
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
+      - "E:/Programas/nvm/lld-link.com"
+      - "E:/Programas/nvm/lld-link.exe"
+      - "E:/Programas/nvm/lld-link"
+      - "C:/nvm4w/nodejs/lld-link.com"
+      - "C:/nvm4w/nodejs/lld-link.exe"
+      - "C:/nvm4w/nodejs/lld-link"
+      - "E:/Programas/Microsoft VS Code/bin/lld-link.com"
+      - "E:/Programas/Microsoft VS Code/bin/lld-link.exe"
+      - "E:/Programas/Microsoft VS Code/bin/lld-link"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
@@ -306,8 +324,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -319,6 +339,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
   -
     kind: "find-v1"
     backtrace:
@@ -349,8 +371,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/ffmpeg/bin/"
-      - "E:/"
       - "C:/Program Files/CMake/bin/"
+      - "E:/Programas/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "E:/Programas/Microsoft VS Code/bin/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python314/Scripts/"
@@ -375,8 +399,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -388,6 +414,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
   -
     kind: "find-v1"
     backtrace:
@@ -418,8 +446,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/ffmpeg/bin/"
-      - "E:/"
       - "C:/Program Files/CMake/bin/"
+      - "E:/Programas/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "E:/Programas/Microsoft VS Code/bin/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python314/Scripts/"
@@ -461,12 +491,18 @@ events:
       - "C:/ffmpeg/bin/mt.com"
       - "C:/ffmpeg/bin/mt.exe"
       - "C:/ffmpeg/bin/mt"
-      - "E:/mt.com"
-      - "E:/mt.exe"
-      - "E:/mt"
       - "C:/Program Files/CMake/bin/mt.com"
       - "C:/Program Files/CMake/bin/mt.exe"
       - "C:/Program Files/CMake/bin/mt"
+      - "E:/Programas/nvm/mt.com"
+      - "E:/Programas/nvm/mt.exe"
+      - "E:/Programas/nvm/mt"
+      - "C:/nvm4w/nodejs/mt.com"
+      - "C:/nvm4w/nodejs/mt.exe"
+      - "C:/nvm4w/nodejs/mt"
+      - "E:/Programas/Microsoft VS Code/bin/mt.com"
+      - "E:/Programas/Microsoft VS Code/bin/mt.exe"
+      - "E:/Programas/Microsoft VS Code/bin/mt"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/mt.com"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/mt.exe"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/mt"
@@ -509,8 +545,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -522,6 +560,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
   -
     kind: "find-v1"
     backtrace:
@@ -552,8 +592,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/ffmpeg/bin/"
-      - "E:/"
       - "C:/Program Files/CMake/bin/"
+      - "E:/Programas/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "E:/Programas/Microsoft VS Code/bin/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python314/Scripts/"
@@ -578,8 +620,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -591,6 +635,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
   -
     kind: "find-v1"
     backtrace:
@@ -623,8 +669,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/ffmpeg/bin/"
-      - "E:/"
       - "C:/Program Files/CMake/bin/"
+      - "E:/Programas/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "E:/Programas/Microsoft VS Code/bin/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python314/Scripts/"
@@ -675,12 +723,18 @@ events:
       - "C:/ffmpeg/bin/rc.com"
       - "C:/ffmpeg/bin/rc.exe"
       - "C:/ffmpeg/bin/rc"
-      - "E:/rc.com"
-      - "E:/rc.exe"
-      - "E:/rc"
       - "C:/Program Files/CMake/bin/rc.com"
       - "C:/Program Files/CMake/bin/rc.exe"
       - "C:/Program Files/CMake/bin/rc"
+      - "E:/Programas/nvm/rc.com"
+      - "E:/Programas/nvm/rc.exe"
+      - "E:/Programas/nvm/rc"
+      - "C:/nvm4w/nodejs/rc.com"
+      - "C:/nvm4w/nodejs/rc.exe"
+      - "C:/nvm4w/nodejs/rc"
+      - "E:/Programas/Microsoft VS Code/bin/rc.com"
+      - "E:/Programas/Microsoft VS Code/bin/rc.exe"
+      - "E:/Programas/Microsoft VS Code/bin/rc"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/rc.com"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/rc.exe"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/rc"
@@ -759,8 +813,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -772,6 +828,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -787,8 +845,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-7mnupe"
-      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-7mnupe"
+      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-334xrq"
+      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-334xrq"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -798,39 +856,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-7mnupe'
+        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-334xrq'
         
-        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a4a34.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e3130.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
-        Compila├º├úo de 19/03/2026 23:15:01 iniciada.
+        Compila├º├úo de 28/03/2026 05:05:31 iniciada.
         
-        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7mnupe\\cmTC_a4a34.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-334xrq\\cmTC_e3130.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7mnupe\\Debug\\".
-          Criando o diret├│rio "cmTC_a4a34.dir\\Debug\\cmTC_a4a34.tlog\\".
+          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-334xrq\\Debug\\".
+          Criando o diret├│rio "cmTC_e3130.dir\\Debug\\cmTC_e3130.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_a4a34.dir\\Debug\\cmTC_a4a34.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_a4a34.dir\\Debug\\cmTC_a4a34.tlog\\unsuccessfulbuild".
+          Criando "cmTC_e3130.dir\\Debug\\cmTC_e3130.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_e3130.dir\\Debug\\cmTC_e3130.tlog\\unsuccessfulbuild".
         ClCompile:
-          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_a4a34.dir\\Debug\\\\" /Fd"cmTC_a4a34.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_e3130.dir\\Debug\\\\" /Fd"cmTC_e3130.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.50.35724 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_a4a34.dir\\Debug\\\\" /Fd"cmTC_a4a34.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_e3130.dir\\Debug\\\\" /Fd"cmTC_e3130.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7mnupe\\Debug\\cmTC_a4a34.exe" /INCREMENTAL /ILK:"cmTC_a4a34.dir\\Debug\\cmTC_a4a34.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-7mnupe/Debug/cmTC_a4a34.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-7mnupe/Debug/cmTC_a4a34.lib" /MACHINE:X64  /machine:x64 cmTC_a4a34.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_a4a34.vcxproj -> C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7mnupe\\Debug\\cmTC_a4a34.exe
+          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-334xrq\\Debug\\cmTC_e3130.exe" /INCREMENTAL /ILK:"cmTC_e3130.dir\\Debug\\cmTC_e3130.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-334xrq/Debug/cmTC_e3130.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-334xrq/Debug/cmTC_e3130.lib" /MACHINE:X64  /machine:x64 cmTC_e3130.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e3130.vcxproj -> C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-334xrq\\Debug\\cmTC_e3130.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_a4a34.dir\\Debug\\cmTC_a4a34.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_a4a34.dir\\Debug\\cmTC_a4a34.tlog\\cmTC_a4a34.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7mnupe\\cmTC_a4a34.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_e3130.dir\\Debug\\cmTC_e3130.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_e3130.dir\\Debug\\cmTC_e3130.tlog\\cmTC_e3130.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-334xrq\\cmTC_e3130.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:01.35
+        Tempo Decorrido 00:00:01.25
         
       exitCode: 0
   -
@@ -870,7 +928,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2155:EVAL:2 (__FetchContent_doPopulation)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2155 (cmake_language)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2394 (__FetchContent_Populate)"
-      - "CMakeLists.txt:24 (FetchContent_MakeAvailable)"
+      - "CMakeLists.txt:29 (FetchContent_MakeAvailable)"
     mode: "program"
     variable: "GIT_EXECUTABLE"
     description: "Git command line client"
@@ -895,8 +953,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/ffmpeg/bin/"
-      - "E:/"
       - "C:/Program Files/CMake/bin/"
+      - "E:/Programas/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "E:/Programas/Microsoft VS Code/bin/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python314/Scripts/"
@@ -948,12 +1008,18 @@ events:
       - "C:/ffmpeg/bin/git.cmd.com"
       - "C:/ffmpeg/bin/git.cmd.exe"
       - "C:/ffmpeg/bin/git.cmd"
-      - "E:/git.cmd.com"
-      - "E:/git.cmd.exe"
-      - "E:/git.cmd"
       - "C:/Program Files/CMake/bin/git.cmd.com"
       - "C:/Program Files/CMake/bin/git.cmd.exe"
       - "C:/Program Files/CMake/bin/git.cmd"
+      - "E:/Programas/nvm/git.cmd.com"
+      - "E:/Programas/nvm/git.cmd.exe"
+      - "E:/Programas/nvm/git.cmd"
+      - "C:/nvm4w/nodejs/git.cmd.com"
+      - "C:/nvm4w/nodejs/git.cmd.exe"
+      - "C:/nvm4w/nodejs/git.cmd"
+      - "E:/Programas/Microsoft VS Code/bin/git.cmd.com"
+      - "E:/Programas/Microsoft VS Code/bin/git.cmd.exe"
+      - "E:/Programas/Microsoft VS Code/bin/git.cmd"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/git.cmd.com"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/git.cmd.exe"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/git.cmd"
@@ -1054,8 +1120,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -1067,6 +1135,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1109,8 +1179,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -1122,6 +1194,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1144,7 +1218,7 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
-      Compila├º├úo de 19/03/2026 23:15:15 iniciada.
+      Compila├º├úo de 28/03/2026 05:05:44 iniciada.
       
       Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
@@ -1173,7 +1247,7 @@ events:
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:01.21
+      Tempo Decorrido 00:00:01.08
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -1215,8 +1289,10 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/ffmpeg/bin/"
-      - "E:/"
       - "C:/Program Files/CMake/bin/"
+      - "E:/Programas/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "E:/Programas/Microsoft VS Code/bin/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python314/Scripts/"
@@ -1270,12 +1346,18 @@ events:
       - "C:/ffmpeg/bin/lld-link.com"
       - "C:/ffmpeg/bin/lld-link.exe"
       - "C:/ffmpeg/bin/lld-link"
-      - "E:/lld-link.com"
-      - "E:/lld-link.exe"
-      - "E:/lld-link"
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
+      - "E:/Programas/nvm/lld-link.com"
+      - "E:/Programas/nvm/lld-link.exe"
+      - "E:/Programas/nvm/lld-link"
+      - "C:/nvm4w/nodejs/lld-link.com"
+      - "C:/nvm4w/nodejs/lld-link.exe"
+      - "C:/nvm4w/nodejs/lld-link"
+      - "E:/Programas/Microsoft VS Code/bin/lld-link.com"
+      - "E:/Programas/Microsoft VS Code/bin/lld-link.exe"
+      - "E:/Programas/Microsoft VS Code/bin/lld-link"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
@@ -1354,8 +1436,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -1367,6 +1451,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1382,8 +1468,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-iv0e72"
-      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-iv0e72"
+      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-cv66qx"
+      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-cv66qx"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1392,39 +1478,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-iv0e72'
+        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-cv66qx'
         
-        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_351c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c8438.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
-        Compila├º├úo de 19/03/2026 23:15:17 iniciada.
+        Compila├º├úo de 28/03/2026 05:05:46 iniciada.
         
-        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iv0e72\\cmTC_351c6.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv66qx\\cmTC_c8438.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iv0e72\\Debug\\".
-          Criando o diret├│rio "cmTC_351c6.dir\\Debug\\cmTC_351c6.tlog\\".
+          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv66qx\\Debug\\".
+          Criando o diret├│rio "cmTC_c8438.dir\\Debug\\cmTC_c8438.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_351c6.dir\\Debug\\cmTC_351c6.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_351c6.dir\\Debug\\cmTC_351c6.tlog\\unsuccessfulbuild".
+          Criando "cmTC_c8438.dir\\Debug\\cmTC_c8438.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_c8438.dir\\Debug\\cmTC_c8438.tlog\\unsuccessfulbuild".
         ClCompile:
-          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_351c6.dir\\Debug\\\\" /Fd"cmTC_351c6.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c8438.dir\\Debug\\\\" /Fd"cmTC_c8438.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.50.35724 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_351c6.dir\\Debug\\\\" /Fd"cmTC_351c6.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c8438.dir\\Debug\\\\" /Fd"cmTC_c8438.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iv0e72\\Debug\\cmTC_351c6.exe" /INCREMENTAL /ILK:"cmTC_351c6.dir\\Debug\\cmTC_351c6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-iv0e72/Debug/cmTC_351c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-iv0e72/Debug/cmTC_351c6.lib" /MACHINE:X64  /machine:x64 cmTC_351c6.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_351c6.vcxproj -> C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iv0e72\\Debug\\cmTC_351c6.exe
+          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv66qx\\Debug\\cmTC_c8438.exe" /INCREMENTAL /ILK:"cmTC_c8438.dir\\Debug\\cmTC_c8438.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-cv66qx/Debug/cmTC_c8438.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-cv66qx/Debug/cmTC_c8438.lib" /MACHINE:X64  /machine:x64 cmTC_c8438.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c8438.vcxproj -> C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv66qx\\Debug\\cmTC_c8438.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_351c6.dir\\Debug\\cmTC_351c6.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_351c6.dir\\Debug\\cmTC_351c6.tlog\\cmTC_351c6.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iv0e72\\cmTC_351c6.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_c8438.dir\\Debug\\cmTC_c8438.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_c8438.dir\\Debug\\cmTC_c8438.tlog\\cmTC_c8438.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv66qx\\cmTC_c8438.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:01.27
+        Tempo Decorrido 00:00:01.21
         
       exitCode: 0
   -
@@ -1466,8 +1552,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-v6u5w0"
-      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-v6u5w0"
+      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-e2vpq9"
+      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-e2vpq9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc /Zc:__cplusplus /MP"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1476,47 +1562,47 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-v6u5w0'
+        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-e2vpq9'
         
-        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e8237.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_19ef3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
-        Compila├º├úo de 19/03/2026 23:15:29 iniciada.
+        Compila├º├úo de 28/03/2026 05:05:57 iniciada.
         
-        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6u5w0\\cmTC_e8237.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2vpq9\\cmTC_19ef3.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6u5w0\\Debug\\".
-          Criando o diret├│rio "cmTC_e8237.dir\\Debug\\cmTC_e8237.tlog\\".
+          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2vpq9\\Debug\\".
+          Criando o diret├│rio "cmTC_19ef3.dir\\Debug\\cmTC_19ef3.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_e8237.dir\\Debug\\cmTC_e8237.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_e8237.dir\\Debug\\cmTC_e8237.tlog\\unsuccessfulbuild".
+          Criando "cmTC_19ef3.dir\\Debug\\cmTC_19ef3.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_19ef3.dir\\Debug\\cmTC_19ef3.tlog\\unsuccessfulbuild".
         ComputeStdModulesCompileInputs:
           Lendo o arquivo de manifesto da biblioteca 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\modules.json' que fornece dados para a biblioteca 'microsoft/STL'.
           Adicionando a fonte do m├│dulo 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\std.ixx' da biblioteca 'microsoft/STL' a ser constru├¡da com este projeto.
           Adicionando a fonte do m├│dulo 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\std.compat.ixx' da biblioteca 'microsoft/STL' a ser constru├¡da com este projeto.
         MakeDirsForCl:
-          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6u5w0\\cmTC_e8237.dir\\Debug\\microsoft\\STL".
+          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2vpq9\\cmTC_19ef3.dir\\Debug\\microsoft\\STL".
         SetModuleDependencies:
-          Criando o diret├│rio "cmTC_e8237.dir\\Debug\\cmTC_e8237_MD.tlog\\".
+          Criando o diret├│rio "cmTC_19ef3.dir\\Debug\\cmTC_19ef3_MD.tlog\\".
         ClCompile:
-          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_e8237.dir\\Debug\\\\" /Fd"cmTC_e8237.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6u5w0\\src.cxx"
+          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_19ef3.dir\\Debug\\\\" /Fd"cmTC_19ef3.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2vpq9\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.50.35724 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_e8237.dir\\Debug\\\\" /Fd"cmTC_e8237.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6u5w0\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_19ef3.dir\\Debug\\\\" /Fd"cmTC_19ef3.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2vpq9\\src.cxx"
           src.cxx
-        C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6u5w0\\src.cxx(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6u5w0\\cmTC_e8237.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6u5w0\\cmTC_e8237.vcxproj" (destinos padr├úo) -- FALHA.
+        C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2vpq9\\src.cxx(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2vpq9\\cmTC_19ef3.vcxproj]
+        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2vpq9\\cmTC_19ef3.vcxproj" (destinos padr├úo) -- FALHA.
         
         FALHA da compila├º├úo.
         
-        "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6u5w0\\cmTC_e8237.vcxproj" (destino padr├úo) (1) ->
+        "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2vpq9\\cmTC_19ef3.vcxproj" (destino padr├úo) (1) ->
         (ClCompile destino) -> 
-          C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6u5w0\\src.cxx(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6u5w0\\cmTC_e8237.vcxproj]
+          C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2vpq9\\src.cxx(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2vpq9\\cmTC_19ef3.vcxproj]
         
             0 Aviso(s)
             1 Erro(s)
         
-        Tempo Decorrido 00:00:00.58
+        Tempo Decorrido 00:00:00.68
         
       exitCode: 1
   -
@@ -1529,8 +1615,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-677ox4"
-      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-677ox4"
+      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-5pf2rj"
+      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-5pf2rj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc /Zc:__cplusplus /MP"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1539,49 +1625,49 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-677ox4'
+        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-5pf2rj'
         
-        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fb523.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_65dc2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
-        Compila├º├úo de 19/03/2026 23:15:30 iniciada.
+        Compila├º├úo de 28/03/2026 05:05:58 iniciada.
         
-        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-677ox4\\cmTC_fb523.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5pf2rj\\cmTC_65dc2.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-677ox4\\Debug\\".
-          Criando o diret├│rio "cmTC_fb523.dir\\Debug\\cmTC_fb523.tlog\\".
+          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5pf2rj\\Debug\\".
+          Criando o diret├│rio "cmTC_65dc2.dir\\Debug\\cmTC_65dc2.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_fb523.dir\\Debug\\cmTC_fb523.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_fb523.dir\\Debug\\cmTC_fb523.tlog\\unsuccessfulbuild".
+          Criando "cmTC_65dc2.dir\\Debug\\cmTC_65dc2.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_65dc2.dir\\Debug\\cmTC_65dc2.tlog\\unsuccessfulbuild".
         ComputeStdModulesCompileInputs:
           Lendo o arquivo de manifesto da biblioteca 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\modules.json' que fornece dados para a biblioteca 'microsoft/STL'.
           Adicionando a fonte do m├│dulo 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\std.ixx' da biblioteca 'microsoft/STL' a ser constru├¡da com este projeto.
           Adicionando a fonte do m├│dulo 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\std.compat.ixx' da biblioteca 'microsoft/STL' a ser constru├¡da com este projeto.
         MakeDirsForCl:
-          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-677ox4\\cmTC_fb523.dir\\Debug\\microsoft\\STL".
+          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5pf2rj\\cmTC_65dc2.dir\\Debug\\microsoft\\STL".
         SetModuleDependencies:
-          Criando o diret├│rio "cmTC_fb523.dir\\Debug\\cmTC_fb523_MD.tlog\\".
+          Criando o diret├│rio "cmTC_65dc2.dir\\Debug\\cmTC_65dc2_MD.tlog\\".
         ClCompile:
-          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_fb523.dir\\Debug\\\\" /Fd"cmTC_fb523.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-677ox4\\CheckFunctionExists.cxx"
+          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_65dc2.dir\\Debug\\\\" /Fd"cmTC_65dc2.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5pf2rj\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.50.35724 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_fb523.dir\\Debug\\\\" /Fd"cmTC_fb523.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-677ox4\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_65dc2.dir\\Debug\\\\" /Fd"cmTC_65dc2.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5pf2rj\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-677ox4\\Debug\\cmTC_fb523.exe" /INCREMENTAL /ILK:"cmTC_fb523.dir\\Debug\\cmTC_fb523.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-677ox4/Debug/cmTC_fb523.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-677ox4/Debug/cmTC_fb523.lib" /MACHINE:X64  /machine:x64 cmTC_fb523.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-677ox4\\cmTC_fb523.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-677ox4\\cmTC_fb523.vcxproj" (destinos padr├úo) -- FALHA.
+          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5pf2rj\\Debug\\cmTC_65dc2.exe" /INCREMENTAL /ILK:"cmTC_65dc2.dir\\Debug\\cmTC_65dc2.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-5pf2rj/Debug/cmTC_65dc2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-5pf2rj/Debug/cmTC_65dc2.lib" /MACHINE:X64  /machine:x64 cmTC_65dc2.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5pf2rj\\cmTC_65dc2.vcxproj]
+        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5pf2rj\\cmTC_65dc2.vcxproj" (destinos padr├úo) -- FALHA.
         
         FALHA da compila├º├úo.
         
-        "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-677ox4\\cmTC_fb523.vcxproj" (destino padr├úo) (1) ->
+        "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5pf2rj\\cmTC_65dc2.vcxproj" (destino padr├úo) (1) ->
         (Link destino) -> 
-          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-677ox4\\cmTC_fb523.vcxproj]
+          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5pf2rj\\cmTC_65dc2.vcxproj]
         
             0 Aviso(s)
             1 Erro(s)
         
-        Tempo Decorrido 00:00:00.87
+        Tempo Decorrido 00:00:00.89
         
       exitCode: 1
   -
@@ -1594,8 +1680,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-1fqzt7"
-      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-1fqzt7"
+      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-ki8rdj"
+      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-ki8rdj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc /Zc:__cplusplus /MP"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1604,49 +1690,49 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-1fqzt7'
+        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-ki8rdj'
         
-        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0db52.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5c641.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
-        Compila├º├úo de 19/03/2026 23:15:31 iniciada.
+        Compila├º├úo de 28/03/2026 05:05:59 iniciada.
         
-        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1fqzt7\\cmTC_0db52.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ki8rdj\\cmTC_5c641.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1fqzt7\\Debug\\".
-          Criando o diret├│rio "cmTC_0db52.dir\\Debug\\cmTC_0db52.tlog\\".
+          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ki8rdj\\Debug\\".
+          Criando o diret├│rio "cmTC_5c641.dir\\Debug\\cmTC_5c641.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_0db52.dir\\Debug\\cmTC_0db52.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_0db52.dir\\Debug\\cmTC_0db52.tlog\\unsuccessfulbuild".
+          Criando "cmTC_5c641.dir\\Debug\\cmTC_5c641.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_5c641.dir\\Debug\\cmTC_5c641.tlog\\unsuccessfulbuild".
         ComputeStdModulesCompileInputs:
           Lendo o arquivo de manifesto da biblioteca 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\modules.json' que fornece dados para a biblioteca 'microsoft/STL'.
           Adicionando a fonte do m├│dulo 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\std.ixx' da biblioteca 'microsoft/STL' a ser constru├¡da com este projeto.
           Adicionando a fonte do m├│dulo 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\std.compat.ixx' da biblioteca 'microsoft/STL' a ser constru├¡da com este projeto.
         MakeDirsForCl:
-          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1fqzt7\\cmTC_0db52.dir\\Debug\\microsoft\\STL".
+          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ki8rdj\\cmTC_5c641.dir\\Debug\\microsoft\\STL".
         SetModuleDependencies:
-          Criando o diret├│rio "cmTC_0db52.dir\\Debug\\cmTC_0db52_MD.tlog\\".
+          Criando o diret├│rio "cmTC_5c641.dir\\Debug\\cmTC_5c641_MD.tlog\\".
         ClCompile:
-          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_0db52.dir\\Debug\\\\" /Fd"cmTC_0db52.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1fqzt7\\CheckFunctionExists.cxx"
+          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_5c641.dir\\Debug\\\\" /Fd"cmTC_5c641.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ki8rdj\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.50.35724 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_0db52.dir\\Debug\\\\" /Fd"cmTC_0db52.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1fqzt7\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_5c641.dir\\Debug\\\\" /Fd"cmTC_5c641.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ki8rdj\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1fqzt7\\Debug\\cmTC_0db52.exe" /INCREMENTAL /ILK:"cmTC_0db52.dir\\Debug\\cmTC_0db52.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-1fqzt7/Debug/cmTC_0db52.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-1fqzt7/Debug/cmTC_0db52.lib" /MACHINE:X64  /machine:x64 cmTC_0db52.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1fqzt7\\cmTC_0db52.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1fqzt7\\cmTC_0db52.vcxproj" (destinos padr├úo) -- FALHA.
+          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ki8rdj\\Debug\\cmTC_5c641.exe" /INCREMENTAL /ILK:"cmTC_5c641.dir\\Debug\\cmTC_5c641.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-ki8rdj/Debug/cmTC_5c641.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-ki8rdj/Debug/cmTC_5c641.lib" /MACHINE:X64  /machine:x64 cmTC_5c641.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ki8rdj\\cmTC_5c641.vcxproj]
+        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ki8rdj\\cmTC_5c641.vcxproj" (destinos padr├úo) -- FALHA.
         
         FALHA da compila├º├úo.
         
-        "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1fqzt7\\cmTC_0db52.vcxproj" (destino padr├úo) (1) ->
+        "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ki8rdj\\cmTC_5c641.vcxproj" (destino padr├úo) (1) ->
         (Link destino) -> 
-          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1fqzt7\\cmTC_0db52.vcxproj]
+          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ki8rdj\\cmTC_5c641.vcxproj]
         
             0 Aviso(s)
             1 Erro(s)
         
-        Tempo Decorrido 00:00:00.94
+        Tempo Decorrido 00:00:00.90
         
       exitCode: 1
   -
@@ -1654,7 +1740,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2180 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
-      - "CMakeLists.txt:30 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     mode: "program"
     variable: "_Python3_EXECUTABLE"
     description: "Path to a program."
@@ -1995,8 +2081,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -2008,6 +2096,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2019,7 +2109,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2437 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
-      - "CMakeLists.txt:30 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     mode: "program"
     variable: "_Python3_EXECUTABLE_DEBUG"
     description: "Path to a program."
@@ -2059,8 +2149,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -2072,6 +2164,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2083,7 +2177,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3201 (find_library)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
-      - "CMakeLists.txt:30 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     mode: "library"
     variable: "_Python3_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -2124,8 +2218,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -2137,6 +2233,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2152,7 +2250,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3311 (find_library)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
-      - "CMakeLists.txt:30 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     mode: "library"
     variable: "_Python3_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -2199,8 +2297,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -2212,6 +2312,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2227,7 +2329,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3389 (find_library)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
-      - "CMakeLists.txt:30 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     mode: "library"
     variable: "_Python3_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -2257,8 +2359,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -2270,6 +2374,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2286,7 +2392,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:1406 (find_library)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3407 (_python_find_runtime_library)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
-      - "CMakeLists.txt:30 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     mode: "library"
     variable: "_Python3_RUNTIME_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -2324,10 +2430,14 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/ffmpeg/bin/bin/"
       - "C:/ffmpeg/bin/"
-      - "E:/bin/"
-      - "E:/"
       - "C:/Program Files/CMake/bin/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "E:/Programas/nvm/bin/"
+      - "E:/Programas/nvm/"
+      - "C:/nvm4w/nodejs/bin/"
+      - "C:/nvm4w/nodejs/"
+      - "E:/Programas/Microsoft VS Code/bin/bin/"
+      - "E:/Programas/Microsoft VS Code/bin/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/bin/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/Miqu\u00e9ias/AppData/Local/Programs/Python/Python314/Scripts/bin/"
@@ -2385,8 +2495,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -2398,6 +2510,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2413,7 +2527,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3716 (find_path)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
-      - "CMakeLists.txt:30 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     mode: "path"
     variable: "_Python3_INCLUDE_DIR"
     description: "Path to a file."
@@ -2443,8 +2557,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -2456,6 +2572,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2467,7 +2585,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3781 (find_path)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
-      - "CMakeLists.txt:30 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     mode: "path"
     variable: "_Python3_INCLUDE_DIR"
     description: "Path to a file."
@@ -2502,8 +2620,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -2515,6 +2635,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2534,8 +2656,8 @@ events:
     checks:
       - "Performing Test HAS_MSVC_GL_LTCG"
     directories:
-      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-z9u55v"
-      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-z9u55v"
+      source: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-gqt0u4"
+      binary: "C:/Users/Miqu\u00e9ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-gqt0u4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2544,55 +2666,55 @@ events:
       variable: "HAS_MSVC_GL_LTCG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-z9u55v'
+        Change Dir: 'C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-gqt0u4'
         
-        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7b129.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): E:/Programas/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_83117.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
-        Compila├º├úo de 19/03/2026 23:16:17 iniciada.
+        Compila├º├úo de 28/03/2026 05:06:56 iniciada.
         
-        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9u55v\\cmTC_7b129.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqt0u4\\cmTC_83117.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9u55v\\Debug\\".
-          Criando o diret├│rio "cmTC_7b129.dir\\Debug\\cmTC_7b129.tlog\\".
+          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqt0u4\\Debug\\".
+          Criando o diret├│rio "cmTC_83117.dir\\Debug\\cmTC_83117.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_7b129.dir\\Debug\\cmTC_7b129.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_7b129.dir\\Debug\\cmTC_7b129.tlog\\unsuccessfulbuild".
+          Criando "cmTC_83117.dir\\Debug\\cmTC_83117.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_83117.dir\\Debug\\cmTC_83117.tlog\\unsuccessfulbuild".
         ComputeStdModulesCompileInputs:
           Lendo o arquivo de manifesto da biblioteca 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\modules.json' que fornece dados para a biblioteca 'microsoft/STL'.
           Adicionando a fonte do m├│dulo 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\std.ixx' da biblioteca 'microsoft/STL' a ser constru├¡da com este projeto.
           Adicionando a fonte do m├│dulo 'E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\modules\\std.compat.ixx' da biblioteca 'microsoft/STL' a ser constru├¡da com este projeto.
         MakeDirsForCl:
-          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9u55v\\cmTC_7b129.dir\\Debug\\microsoft\\STL".
+          Criando o diret├│rio "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqt0u4\\cmTC_83117.dir\\Debug\\microsoft\\STL".
         SetModuleDependencies:
-          Criando o diret├│rio "cmTC_7b129.dir\\Debug\\cmTC_7b129_MD.tlog\\".
+          Criando o diret├│rio "cmTC_83117.dir\\Debug\\cmTC_83117_MD.tlog\\".
         ClCompile:
-          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_7b129.dir\\Debug\\\\" /Fd"cmTC_7b129.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9u55v\\src.cxx"
+          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_83117.dir\\Debug\\\\" /Fd"cmTC_83117.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqt0u4\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.50.35724 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_7b129.dir\\Debug\\\\" /Fd"cmTC_7b129.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9u55v\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_83117.dir\\Debug\\\\" /Fd"cmTC_83117.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqt0u4\\src.cxx"
           src.cxx
         Link:
-          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9u55v\\Debug\\cmTC_7b129.exe" /INCREMENTAL /ILK:"cmTC_7b129.dir\\Debug\\cmTC_7b129.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-z9u55v/Debug/cmTC_7b129.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-z9u55v/Debug/cmTC_7b129.lib" /MACHINE:X64  /machine:x64 cmTC_7b129.dir\\Debug\\src.obj
-        LINK : warning LNK4075: ignorando '/INCREMENTAL' devido a especifica├º├úo '/LTCG' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9u55v\\cmTC_7b129.vcxproj]
+          E:\\Programas\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqt0u4\\Debug\\cmTC_83117.exe" /INCREMENTAL /ILK:"cmTC_83117.dir\\Debug\\cmTC_83117.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-gqt0u4/Debug/cmTC_83117.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Miqu├®ias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/CMakeFiles/CMakeScratch/TryCompile-gqt0u4/Debug/cmTC_83117.lib" /MACHINE:X64  /machine:x64 cmTC_83117.dir\\Debug\\src.obj
+        LINK : warning LNK4075: ignorando '/INCREMENTAL' devido a especifica├º├úo '/LTCG' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqt0u4\\cmTC_83117.vcxproj]
           Gerando c├│digo
           Finalizada a gera├º├úo de c├│digo
-          cmTC_7b129.vcxproj -> C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9u55v\\Debug\\cmTC_7b129.exe
+          cmTC_83117.vcxproj -> C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqt0u4\\Debug\\cmTC_83117.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_7b129.dir\\Debug\\cmTC_7b129.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_7b129.dir\\Debug\\cmTC_7b129.tlog\\cmTC_7b129.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9u55v\\cmTC_7b129.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_83117.dir\\Debug\\cmTC_83117.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_83117.dir\\Debug\\cmTC_83117.tlog\\cmTC_83117.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqt0u4\\cmTC_83117.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
         
-        "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9u55v\\cmTC_7b129.vcxproj" (destino padr├úo) (1) ->
+        "C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqt0u4\\cmTC_83117.vcxproj" (destino padr├úo) (1) ->
         (Link destino) -> 
-          LINK : warning LNK4075: ignorando '/INCREMENTAL' devido a especifica├º├úo '/LTCG' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9u55v\\cmTC_7b129.vcxproj]
+          LINK : warning LNK4075: ignorando '/INCREMENTAL' devido a especifica├º├úo '/LTCG' [C:\\Users\\Miqu├®ias\\Documents\\AR Softworks\\Projeto-REVO-ENGINE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqt0u4\\cmTC_83117.vcxproj]
         
             1 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:01.51
+        Tempo Decorrido 00:00:01.37
         
       exitCode: 0
   -
@@ -2701,8 +2823,10 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\ffmpeg\\bin"
-        - "E:\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "E:\\Programas\\Microsoft VS Code\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
@@ -2714,6 +2838,8 @@ events:
         - "E:\\PyCharm 2025.3.2.1\\bin"
         - "C:\\Users\\Miqu\u00e9ias\\.dotnet\\tools"
         - "C:\\Users\\Miqu\u00e9ias\\AppData\\Roaming\\npm"
+        - "E:\\Programas\\nvm"
+        - "C:\\nvm4w\\nodejs"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/MMOEngine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"

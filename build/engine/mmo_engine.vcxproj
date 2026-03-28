@@ -78,7 +78,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/pybind11-src/include" /external:I "C:/Users/Miquéias/AppData/Local/Programs/Python/Python312/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -99,16 +99,16 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;Py_NO_LINK_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;Py_NO_LINK_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;Py_NO_LINK_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;Py_NO_LINK_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -121,7 +121,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/pybind11-src/include" /external:I "C:/Users/Miquéias/AppData/Local/Programs/Python/Python312/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -141,18 +141,18 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;Py_NO_LINK_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;Py_NO_LINK_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;Py_NO_LINK_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;Py_NO_LINK_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -165,7 +165,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/pybind11-src/include" /external:I "C:/Users/Miquéias/AppData/Local/Programs/Python/Python312/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -185,18 +185,18 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;Py_NO_LINK_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;Py_NO_LINK_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;Py_NO_LINK_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;Py_NO_LINK_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -209,7 +209,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/_deps/pybind11-src/include" /external:I "C:/Users/Miquéias/AppData/Local/Programs/Python/Python312/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -230,16 +230,16 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;Py_NO_LINK_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;Py_NO_LINK_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;Py_NO_LINK_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENTT_ID_TYPE=uint32_t;SPDLOG_COMPILED_LIB;ASIO_STANDALONE;ASIO_NO_DEPRECATED;_WIN32_WINNT=0x0601;Py_NO_LINK_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\entt-src\src;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\spdlog-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\json-src\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\asio-src\asio\include;C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\build\_deps\pybind11-src\include;C:\Users\Miquéias\AppData\Local\Programs\Python\Python312\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -309,6 +309,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine\core\engine.cpp" />
+    <ClCompile Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine\core\game_loop.cpp" />
     <ClCompile Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine\ecs\world.cpp" />
     <ClCompile Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine\network\server_socket.cpp" />
     <ClCompile Include="C:\Users\Miquéias\Documents\AR Softworks\Projeto-REVO-ENGINE\engine\scripting\python_bridge.cpp" />
