@@ -164,7 +164,7 @@ Contribuições são bem-vindas!
 
 ## 📜 Licença
 
-Definir (MIT recomendado)
+MIT
 
 ---
 
