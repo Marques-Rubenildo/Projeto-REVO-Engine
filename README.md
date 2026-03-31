@@ -153,7 +153,7 @@ Construir uma engine MMO capaz de:
 
 ## 🤝 Contribuição
 
-Contribuições são bem-vindas!
+Contribuições são bem-vindas(entrar em contato antes)!
 
 1. Fork o projeto
 2. Crie uma branch (`feature/nova-feature`)
@@ -164,7 +164,7 @@ Contribuições são bem-vindas!
 
 ## 📜 Licença
 
-MIT
+GPL
 
 ---
 
