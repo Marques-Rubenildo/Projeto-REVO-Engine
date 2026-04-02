@@ -8,141 +8,189 @@
 #include <spdlog/spdlog.h>
 #include <filesystem>
 #include <csignal>
+#include <thread>
+#include <chrono>
+#include <stdexcept>
+#include <mutex>
 
-// Sinal de encerramento limpo (Ctrl+C)
 static GameLoop* g_loop_ptr = nullptr;
-static void signal_handler(int) {
-    spdlog::info("[Engine] Sinal recebido. Encerrando...");
+static void signal_handler(int sig) {
+    spdlog::info("[Engine] Sinal {} recebido. Encerrando...", sig);
     if (g_loop_ptr) g_loop_ptr->stop();
 }
 
-Engine::Engine()  = default;
+Engine::Engine() = default;
+Engine::Engine(const EngineConfig& config) : m_config(config) {}
 Engine::~Engine() = default;
+
+void Engine::initialize() {
+    if (m_config.server_port <= 0 || m_config.server_port > 65534)
+        throw std::runtime_error("Porta invalida: " +
+                                 std::to_string(m_config.server_port));
+    if (m_config.tick_rate <= 0 || m_config.tick_rate > 128)
+        throw std::runtime_error("tick_rate invalido: " +
+                                 std::to_string(m_config.tick_rate));
+    spdlog::info("[Engine] Config: {}:{} | {} jogadores | {}Hz",
+                 m_config.server_host, m_config.server_port,
+                 m_config.max_players, m_config.tick_rate);
+}
 
 void Engine::run() {
     spdlog::set_level(spdlog::level::debug);
     spdlog::info("=== REVO-ENGINE iniciando ===");
 
-    // ── Subsistemas ──────────────────────────────────────────────────────────
     World             world;
+    std::mutex        world_mtx;   // protege acesso ao world entre threads
     ServerSocket      server;
     MessageDispatcher dispatcher;
     PythonBridge      python;
-    GameLoop          loop(20); // 20Hz = 50ms por tick
+    GameLoop          loop(m_config.tick_rate);
 
     g_loop_ptr = &loop;
     std::signal(SIGINT,  signal_handler);
     std::signal(SIGTERM, signal_handler);
 
-    // ── Python ───────────────────────────────────────────────────────────────
-    python.initialize(std::filesystem::current_path() / "scripts");
+    python.initialize(std::filesystem::path(m_config.scripts_dir));
 
-    // ── Handlers de protocolo ─────────────────────────────────────────────────
+    // ── Handlers de protocolo ─────────────────────────────────────────────
+    // ATENÇÃO: handlers rodam nas threads do Asio (io_context)
+    // O world_mtx garante que não há acesso concorrente ao ECS
+
     dispatcher.on(MsgType::C_Login, [&](uint32_t client_id, const json& p) {
-        auto pkt    = PktCLogin::from_json(p);
-        auto entity = world.create_entity();
-        world.add<Identity>(entity, pkt.username, static_cast<uint64_t>(client_id));
-        world.add<Position>(entity, 0.f, 0.f, 0.f);
-        world.add<Health>(entity);
+        try {
+            auto pkt = PktCLogin::from_json(p);
 
-        PktSLoginOk resp;
-        resp.entity_id = static_cast<uint32_t>(entity);
-        resp.character  = pkt.username;
-        resp.x = resp.y = resp.z = 0.f;
-        server.send_to(client_id, resp.envelope().serialize());
-        spdlog::info("[Login] {} → entidade {}", pkt.username, resp.entity_id);
+            entt::entity entity;
+            {
+                std::lock_guard<std::mutex> lk(world_mtx);
+                entity = world.create_entity();
+                world.add<Identity>(entity, pkt.username,
+                                    static_cast<uint64_t>(client_id));
+                world.add<Position>(entity, 0.f, 0.f, 0.f);
+                world.add<Health>(entity);
+            }
+
+            PktSLoginOk resp;
+            resp.entity_id = static_cast<uint32_t>(entity);
+            resp.client_id = client_id;
+            resp.character  = pkt.username;
+            resp.x = resp.y = resp.z = 0.f;
+            server.send_to(client_id, resp.envelope().serialize());
+            spdlog::info("[Login] {} -> entidade {}", pkt.username, resp.entity_id);
+        } catch (const std::exception& e) {
+            spdlog::error("[Login] Excecao: {}", e.what());
+        }
     });
 
     dispatcher.on(MsgType::C_Move, [&](uint32_t, const json& p) {
-        auto pkt = PktCMove::from_json(p);
-        // Atualiza posição no ECS quando tivermos mapa entity→client
-        spdlog::debug("[Move] eid={} ({:.1f},{:.1f})", pkt.entity_id, pkt.x, pkt.z);
+        try {
+            auto pkt = PktCMove::from_json(p);
+            spdlog::debug("[Move] eid={} ({:.1f},{:.1f})",
+                          pkt.entity_id, pkt.x, pkt.z);
+        } catch (...) {}
     });
 
     dispatcher.on(MsgType::C_Chat, [&](uint32_t client_id, const json& p) {
-        auto pkt = PktCChat::from_json(p);
-        if (pkt.text.size() > 256) pkt.text.resize(256);
-        PktSChatBroadcast bcast{ client_id,
-                                  "Player" + std::to_string(client_id),
-                                  pkt.text };
-        server.broadcast(bcast.envelope().serialize());
-        spdlog::info("[Chat] P{}: {}", client_id, pkt.text);
+        try {
+            auto pkt = PktCChat::from_json(p);
+            if (pkt.text.size() > 256) pkt.text.resize(256);
+            PktSChatBroadcast bcast{ client_id,
+                                      "Player" + std::to_string(client_id),
+                                      pkt.text };
+            server.broadcast(bcast.envelope().serialize());
+            spdlog::info("[Chat] P{}: {}", client_id, pkt.text);
+        } catch (const std::exception& e) {
+            spdlog::error("[Chat] Excecao: {}", e.what());
+        }
     });
 
     dispatcher.on(MsgType::Ping, [&](uint32_t client_id, const json& p) {
-        server.send_to(client_id,
-            PktPong{ p.value("ts", uint64_t{0}) }.envelope().serialize());
+        try {
+            server.send_to(client_id,
+                PktPong{ p.value("ts", uint64_t{0}) }.envelope().serialize());
+        } catch (...) {}
     });
 
     dispatcher.on(MsgType::C_Logout, [&](uint32_t client_id, const json&) {
-        server.send_to(client_id,
-            PktSDisconnect{"logout"}.envelope().serialize());
+        try {
+            server.send_to(client_id,
+                PktSDisconnect{"logout"}.envelope().serialize());
+        } catch (...) {}
     });
 
     server.on_connect([](uint32_t id) {
         spdlog::info("[Net] Cliente {} conectou.", id);
     });
+
     server.on_disconnect([](uint32_t id) {
         spdlog::info("[Net] Cliente {} desconectou.", id);
     });
 
     dispatcher.attach(server);
 
-    // ── Inicia servidor ───────────────────────────────────────────────────────
-    server.listen("0.0.0.0", 7777);
-    spdlog::info("TCP:7777  UDP:7778  |  {} entidades", world.entity_count());
+    try {
+        server.listen(m_config.server_host, m_config.server_port);
+    } catch (const std::exception& e) {
+        spdlog::critical("[Engine] Falha ao iniciar servidor: {}", e.what());
+        return;
+    }
 
-    // ─────────────────────────────────────────────────────────────────────────
-    // Sistemas do game loop (executados em ordem a cada tick de 50ms)
-    // ─────────────────────────────────────────────────────────────────────────
+    spdlog::info("TCP:{}  UDP:{}  | max:{} jogadores",
+                 m_config.server_port,
+                 m_config.server_port + 1,
+                 m_config.max_players);
 
-    // Sistema 1 — processa mensagens de rede pendentes
+    // ── Sistemas do game loop (rodam no thread principal, sequencialmente) ─
+    // poll() — processa callbacks de rede no thread principal
     loop.add_system([&](const TickContext&) {
-        server.poll();
+        try { server.poll(); }
+        catch (const std::exception& e) {
+            spdlog::error("[poll] Excecao: {}", e.what());
+        }
     });
 
-    // Sistema 2 — atualiza posicoes/fisica (placeholder para Fase 2)
+    // Snapshot UDP — lê o world com mutex
     loop.add_system([&](const TickContext& ctx) {
-        (void)ctx;
-        // TODO: movement_system(world, ctx.delta_ms);
+        try {
+            if (server.client_count() == 0) return;
+
+            PktSSnapshot snap;
+            snap.tick = static_cast<uint32_t>(ctx.tick);
+
+            {
+                std::lock_guard<std::mutex> lk(world_mtx);
+                world.each<Position, Health>([&](
+                    entt::entity e, const Position& pos, const Health& hp)
+                {
+                    EntityState es;
+                    es.entity_id  = static_cast<uint32_t>(e);
+                    es.x = pos.x; es.y = pos.y; es.z = pos.z;
+                    es.dir = 0.f; es.anim_state = 0;
+                    es.hp  = static_cast<uint16_t>(hp.current);
+                    snap.entities.push_back(es);
+                });
+            }
+
+            if (!snap.entities.empty())
+                server.broadcast(snap.envelope().serialize(),
+                                 Channel::Unreliable);
+        } catch (const std::exception& e) {
+            spdlog::error("[snapshot] Excecao: {}", e.what());
+        }
     });
 
-    // Sistema 3 — executa eventos Python acumulados no tick
-    loop.add_system([&](const TickContext& ctx) {
-        if (!python.is_initialized()) return;
-        // TODO: python.call("events", "flush_tick", ctx.tick);
-        (void)ctx;
-    });
+    spdlog::info("[Engine] Entrando no game loop...");
+    try {
+        loop.run();
+    } catch (const std::exception& e) {
+        spdlog::critical("[Engine] Excecao no game loop: {}", e.what());
+    } catch (...) {
+        spdlog::critical("[Engine] Excecao desconhecida no game loop.");
+    }
 
-    // Sistema 4 — envia snapshot UDP com estado das entidades
-    loop.add_system([&](const TickContext& ctx) {
-        if (server.client_count() == 0) return;
+    spdlog::info("[Engine] Saindo do game loop.");
+    try { server.stop(); }
+    catch (...) { spdlog::error("[Engine] Excecao ao parar servidor."); }
 
-        PktSSnapshot snap;
-        snap.tick = static_cast<uint32_t>(ctx.tick);
-
-        world.each<Position, Health>([&](
-            entt::entity e, const Position& pos, const Health& hp)
-        {
-            EntityState es;
-            es.entity_id  = static_cast<uint32_t>(e);
-            es.x          = pos.x;
-            es.y          = pos.y;
-            es.z          = pos.z;
-            es.dir        = 0.f;
-            es.anim_state = 0;
-            es.hp         = static_cast<uint16_t>(hp.current);
-            snap.entities.push_back(es);
-        });
-
-        if (!snap.entities.empty())
-            server.broadcast(snap.envelope().serialize(), Channel::Unreliable);
-    });
-
-    // ── Inicia o loop — bloqueia ate Ctrl+C ───────────────────────────────────
-    loop.run();
-
-    // ── Encerramento limpo ────────────────────────────────────────────────────
-    server.stop();
     spdlog::info("=== REVO-ENGINE encerrado. Ticks: {} ===", loop.tick_count());
 }

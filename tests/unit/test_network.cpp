@@ -70,10 +70,11 @@ TEST(ProtocolTest, ChatPacketMaxLength) {
 }
 
 TEST(ProtocolTest, LoginOkRoundtrip) {
-    PktSLoginOk ok{ 7, "guerreiro", 10.f, 0.f, 25.f };
+    PktSLoginOk ok{ 7, 1, "guerreiro", 10.f, 0.f, 25.f }; // entity_id, client_id, character, x, y, z
     auto env  = Envelope::parse(ok.envelope().serialize());
     auto ok2  = PktSLoginOk::from_json(env.payload);
     EXPECT_EQ(ok2.entity_id, 7u);
+    EXPECT_EQ(ok2.client_id, 1u);
     EXPECT_EQ(ok2.character, "guerreiro");
     EXPECT_FLOAT_EQ(ok2.x, 10.f);
     EXPECT_FLOAT_EQ(ok2.z, 25.f);

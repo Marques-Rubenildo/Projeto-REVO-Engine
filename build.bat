@@ -1,5 +1,5 @@
 @echo off
-echo === MMO Engine - Build Debug ===
+echo === MMO Engine - Build RelWithDebInfo ===
 
 cd /d "%~dp0"
 
@@ -27,7 +27,7 @@ echo.
 cd build
 
 :: ── CMake Configure ──────────────────────────────────────────────────────────
-cmake .. -G "Visual Studio 18 2026" -A x64 -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTS=ON > "%TEMP_LOG%" 2>&1
+cmake .. -G "Visual Studio 18 2026" -A x64 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTS=ON > "%TEMP_LOG%" 2>&1
 
 if %ERRORLEVEL% NEQ 0 (
     :: Salva apenas linhas com erro
@@ -44,7 +44,7 @@ if %ERRORLEVEL% NEQ 0 (
 del "%TEMP_LOG%"
 
 :: ── CMake Build ───────────────────────────────────────────────────────────────
-cmake --build . --config Debug --parallel > "%TEMP_LOG%" 2>&1
+cmake --build . --config RelWithDebInfo --parallel > "%TEMP_LOG%" 2>&1
 
 if %ERRORLEVEL% NEQ 0 (
     :: Salva apenas linhas com "error" (case-insensitive), exclui "warning" e linhas vazias
@@ -62,5 +62,5 @@ del "%TEMP_LOG%"
 
 echo.
 echo === Build concluido com sucesso! ===
-echo Executavel: build\server\Debug\mmo_server.exe
+echo Executavel: build\server\RelWithDebInfo\mmo_server.exe
 pause

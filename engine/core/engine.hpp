@@ -1,6 +1,8 @@
 #pragma once
+// engine/core/engine.hpp
+
 #include <string>
-#include <memory>
+#include <cstdint>
 
 struct EngineConfig {
     std::string server_host = "0.0.0.0";
@@ -12,19 +14,13 @@ struct EngineConfig {
 
 class Engine {
 public:
-    explicit Engine(EngineConfig config);
+    Engine();
+    explicit Engine(const EngineConfig& config);
     ~Engine();
 
-    void initialize();
-    void run();
-    void shutdown();
-
-    bool is_running() const { return m_running; }
+    void initialize();  // valida config e prepara subsistemas
+    void run();         // inicia o loop — bloqueia ate encerramento
 
 private:
     EngineConfig m_config;
-    bool         m_running = false;
-
-    struct Subsystems;
-    std::unique_ptr<Subsystems> m_subsystems;
 };

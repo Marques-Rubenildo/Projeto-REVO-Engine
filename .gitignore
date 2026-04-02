@@ -1,0 +1,11 @@
+build/
+logs/
+*.log
+*.exe
+*.obj
+*.pdb
+*.lib
+*.tlog
+*.recipe
+*.bin
+*.txt

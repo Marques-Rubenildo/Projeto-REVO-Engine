@@ -94,19 +94,24 @@ struct PktCLogin {
 // ── S_LoginOk ────────────────────────────────────────────────────────────────
 struct PktSLoginOk {
     uint32_t    entity_id;   // ID da entidade do jogador no ECS
+    uint32_t    client_id;   // ID TCP do cliente (usar como ID UDP)
     std::string character;   // nome do personagem
     float       x, y, z;    // posição inicial
 
     json to_json() const {
-        return { {"eid", entity_id}, {"name", character},
+        return { {"eid", entity_id}, {"cid", client_id},
+                 {"name", character},
                  {"x", x}, {"y", y}, {"z", z} };
     }
     static PktSLoginOk from_json(const json& j) {
-        return { j.at("eid").get<uint32_t>(),
-                 j.at("name").get<std::string>(),
-                 j.at("x").get<float>(),
-                 j.at("y").get<float>(),
-                 j.at("z").get<float>() };
+        PktSLoginOk r;
+        r.entity_id = j.at("eid").get<uint32_t>();
+        r.client_id = j.value("cid", uint32_t{0});
+        r.character = j.at("name").get<std::string>();
+        r.x = j.at("x").get<float>();
+        r.y = j.at("y").get<float>();
+        r.z = j.at("z").get<float>();
+        return r;
     }
     Envelope envelope() const {
         return { MsgType::S_LoginOk, to_json() };

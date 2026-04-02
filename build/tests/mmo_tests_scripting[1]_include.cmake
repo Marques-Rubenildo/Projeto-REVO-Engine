@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/tests/mmo_tests_scripting[1]_tests.cmake")
-  include("C:/Users/Miquéias/Documents/AR Softworks/Projeto-REVO-ENGINE/build/tests/mmo_tests_scripting[1]_tests.cmake")
-else()
-  add_test(mmo_tests_scripting_NOT_BUILT mmo_tests_scripting_NOT_BUILT)
-endif()
